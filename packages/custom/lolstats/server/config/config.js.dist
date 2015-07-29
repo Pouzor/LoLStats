@@ -1,0 +1,3 @@
+'use strict';
+
+exports.lolApiKey = "f75eaa93-e90f-4773-84b2-20909b45d70a";
