@@ -28,12 +28,12 @@ exports.playerHistory = function (req, res, next, id) {
  * List of playerHistory
  */
 exports.refresh = function (req, res) {
-
-    //var options = {
-    //    host: 'global.api.pvp.net',
-    //    port: 443,
-    //    path: '/api/lol/static-data/euw/v1.2/champion?api_key='+config.lolApiKey
-    //};
+//https://developer.riotgames.com/api/methods#!/1012
+    var options = {
+        host: 'euw.api.pvp.net',
+        port: 443,
+        path: '/api/lol/euw/v2.2/matchhistory/35797753?championIds=35797753&api_key='+config.lolApiKey
+    };
     //
     //https.get(options, function (resp) {
     //    var body = '';
